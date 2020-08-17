@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgCentral.Api", "ErgCentral.Api\ErgCentral.Api.csproj", "{DBCC9E07-89F8-4718-B13F-083EF8910639}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73AFEA2E-202D-4079-A390-A99AD3130959} = {73AFEA2E-202D-4079-A390-A99AD3130959}
+		{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9} = {40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}
+		{AF672D7F-A0FA-48AC-8960-5ACC18263039} = {AF672D7F-A0FA-48AC-8960-5ACC18263039}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgCentral.Business", "ErgCentral.Business\ErgCentral.Business.csproj", "{AF672D7F-A0FA-48AC-8960-5ACC18263039}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73AFEA2E-202D-4079-A390-A99AD3130959} = {73AFEA2E-202D-4079-A390-A99AD3130959}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgCentral.Data", "ErgCentral.Data\ErgCentral.Data.csproj", "{73AFEA2E-202D-4079-A390-A99AD3130959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgCentral.Contracts", "ErgCentral.Contracts\ErgCentral.Contracts.csproj", "{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErgCentral.Globals", "ErgCentral.Globals\ErgCentral.Globals.csproj", "{F6C55219-E0CF-4003-9411-6793C4986DAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCC9E07-89F8-4718-B13F-083EF8910639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC9E07-89F8-4718-B13F-083EF8910639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC9E07-89F8-4718-B13F-083EF8910639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC9E07-89F8-4718-B13F-083EF8910639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF672D7F-A0FA-48AC-8960-5ACC18263039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF672D7F-A0FA-48AC-8960-5ACC18263039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF672D7F-A0FA-48AC-8960-5ACC18263039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF672D7F-A0FA-48AC-8960-5ACC18263039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AFEA2E-202D-4079-A390-A99AD3130959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AFEA2E-202D-4079-A390-A99AD3130959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AFEA2E-202D-4079-A390-A99AD3130959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AFEA2E-202D-4079-A390-A99AD3130959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C0BE68-537F-4CC6-92AC-E296B1BEEAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C55219-E0CF-4003-9411-6793C4986DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C55219-E0CF-4003-9411-6793C4986DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C55219-E0CF-4003-9411-6793C4986DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C55219-E0CF-4003-9411-6793C4986DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2F59371-4D06-498C-9DBE-81F579FA619D}
+	EndGlobalSection
+EndGlobal
