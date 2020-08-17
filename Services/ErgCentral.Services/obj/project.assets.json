@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ErgCentral.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ErgCentral.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ErgCentral.Domain.dll": {}
+        }
+      },
+      "ErgCentral.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ErgCentral.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ErgCentral.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ErgCentral.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ErgCentral.Domain/ErgCentral.Domain.csproj",
+      "msbuildProject": "../ErgCentral.Domain/ErgCentral.Domain.csproj"
+    },
+    "ErgCentral.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ErgCentral.Repository/ErgCentral.Repository.csproj",
+      "msbuildProject": "../ErgCentral.Repository/ErgCentral.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ErgCentral.Domain >= 1.0.0",
+      "ErgCentral.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Services\\ErgCentral.Services.csproj",
+      "projectName": "ErgCentral.Services",
+      "projectPath": "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Services\\ErgCentral.Services.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Domain\\ErgCentral.Domain.csproj": {
+              "projectPath": "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Domain\\ErgCentral.Domain.csproj"
+            },
+            "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Repository\\ErgCentral.Repository.csproj": {
+              "projectPath": "G:\\Data\\Imp\\Projects\\RnD\\ErgCentralNew\\ErgCentralNew\\src\\Services\\ErgCentral.Repository\\ErgCentral.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
